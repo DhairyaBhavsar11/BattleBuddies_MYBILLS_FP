@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>MY BILLS</title>
     <link rel="stylesheet" href="main.css">
+    <script src="login.js"></script>
 </head>
 <body>
     <div class="topnav">
@@ -24,10 +25,10 @@
         <form>  
             <div class="container">   
                 <label>Username : </label>   
-                <input type="text" placeholder="Enter Username" name="username" required>  
+                <input type="text" placeholder="Enter Username" id="username" name="username" required>  
                 <label>Password : </label>   
-                <input type="password" placeholder="Enter Password" name="password" required>  
-                <button type="submit">Login</button> 
+                <input type="password" placeholder="Enter Password" id="password" name="password" required>  
+                <button type="submit" id="submit" onclick="validate()">Login</button> 
                 <button type="signup"><a href="signup.html">Sign Up</button> 
                     <input type="checkbox" checked="checked"> Remember me   
                     <br><br>
