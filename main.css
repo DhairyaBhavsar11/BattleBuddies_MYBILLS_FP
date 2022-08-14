@@ -156,3 +156,16 @@ button:hover {
      border: none;   
      cursor: pointer;   
 }
+
+
+/*About Us Page*/
+
+
+.groupinfo {
+    font-size: 1rem;
+    list-style-type:none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    padding-top: 3px;
+
+}
