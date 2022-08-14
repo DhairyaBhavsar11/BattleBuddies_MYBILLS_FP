@@ -125,4 +125,34 @@ button:hover {
     float: right;
  } */
 
- 
+ /*Sign Up Page*/
+
+
+.form1{ 
+    display: flex;
+    background-color: lightgray ;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 10px 30px;
+    margin-top: -3%;
+
+ }   
+
+
+.input3{
+    margin-top: 30px;
+    width: 70%;
+    padding: 12px 20px; 
+}
+
+
+.signup{
+    background-color: #07f;   
+    width: 100%;  
+     color: white;   
+     padding: 15px;   
+     margin: 10px 0px;   
+     border: none;   
+     cursor: pointer;   
+}
