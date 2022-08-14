@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    width: 30%;
+    height: 70vh;
+    background-image: url(img/1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain; 
+    margin-left: 5%;  
+}
+
+.nav{
+    /* display: flex; */
+    background-color: #07f;
+    /* justify-content: space-between; */
+    padding: 15px 10px;
+    overflow: hidden;
+    top: 1px;
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav a{
+    color: white;
+    float: right;
+    padding: 5px 10px;
+}
+
+
+.nav a:hover{
+    color: #0077ff;
+}
+.nav a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #0077ff;
+    transition: .3s;
+    bottom: 0;
+}
+.nav a:hover:after{
+    width: 100%;
+}
+
+button {   
+    background-color: #07f;   
+    width: 100%;  
+     color: white;   
+     padding: 15px;   
+     margin: 10px 0px;   
+     border: none;   
+     cursor: pointer;   
+      }   
+form {  
+    width: 50%;
+    height: auto;
+    float: right;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    border: 3px solid #07f;   
+ }
+ .container a{
+    float: right;
+ }   
+input[type=text], input[type=password] {   
+     width: 100%;   
+     margin: 8px 0;  
+     padding: 12px 20px;   
+     display: inline-block;   
+     border: 2px solid white;   
+     box-sizing: border-box;   
+ }  
+button:hover {   
+     opacity: 0.7;   
+ }   
+.cancelbtn {   
+     width: auto;   
+     padding: 10px 18px;  
+     margin: 10px 5px;  
+ }   
+     
+  
+.container {   
+     padding: 25px;   
+     background-color: lightgray;  
+ }   
