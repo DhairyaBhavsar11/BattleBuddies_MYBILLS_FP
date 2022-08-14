@@ -37,13 +37,17 @@ nav ul li{
     color: white;
     float: right;
     padding: 5px 10px;
+    
 }
 
 
-.nav a:hover{
+nav ul li a:hover{
     color: #0077ff;
+    font-size: 2rem;
 }
-.nav a:after{
+
+
+nav ul li a:after{
     content: "";
     position: absolute;
     left: 0;
@@ -53,8 +57,14 @@ nav ul li{
     transition: .3s;
     bottom: 0;
 }
-.nav a:hover:after{
+nav ul li a:hover:after{
     width: 100%;
+}
+
+
+.active{
+    float: left;
+    margin-left: 0px;
 }
 
 button {   
@@ -65,7 +75,8 @@ button {
      margin: 10px 0px;   
      border: none;   
      cursor: pointer;   
-      }   
+      }  
+
 form {  
     width: 50%;
     height: auto;
@@ -74,9 +85,6 @@ form {
     top: 20%;
     right: 5%;
     border: 3px solid #07f;   
- }
- .container a{
-    float: right;
  }   
 input[type=text], input[type=password] {   
      width: 100%;   
@@ -86,17 +94,33 @@ input[type=text], input[type=password] {
      border: 2px solid white;   
      box-sizing: border-box;   
  }  
+
+ input[type=signup] .a{
+    float: right;
+
+ }
 button:hover {   
      opacity: 0.7;   
- }   
-.cancelbtn {   
+ }  
+ 
+ button a{
+    color: white;
+    text-decoration: none;
+ }
+ 
+
+/* .cancelbtn {   
      width: auto;   
      padding: 10px 18px;  
      margin: 10px 5px;  
- }   
+ }    */
      
   
 .container {   
      padding: 25px;   
      background-color: lightgray;  
  }   
+
+ /* .container a{
+    float: right;
+ } */
