@@ -232,3 +232,176 @@ button:hover {
    opacity: 0.7;  
 
 }
+
+
+@media only screen and (max-width: 400px){
+
+
+
+    .hero{
+        width: 80%;
+        margin-top: 3%;
+        height:30vmax;
+        margin-left: auto;  
+    }
+    
+    
+    
+    form { 
+        display:flex;
+      justify-content: center;
+        width: 60%;
+        height: auto;
+        position: relative;
+        margin-top: 10%;   
+        border: 3px solid #07f; 
+        margin-left: auto;
+        margin-right: auto;
+        
+     }
+    
+    
+    .container{
+        font-size: .5rem;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .groupinfo {
+        font-size: .5rem;
+    
+    }
+    
+    
+    footer{
+        margin-top: 10px;
+    }
+    
+    
+    
+    /*For Navigation Bar*/
+    
+    .nav{
+        padding: 1px 1px;
+        overflow: hidden;
+        top: 1px;
+        font-size: .5rem;
+        
+    }
+    
+    
+    
+    
+    
+    
+    /*contact Me page*/
+    .form{ 
+        display: flex;
+        background-color: lightgray ;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+        margin: 5px 10px;
+        font-size: .1rem;
+        width: 80%;
+        height: auto;
+        position: relative;
+        margin-top: 10%;   
+    
+     }  
+     .input2{
+        margin-top: 20px;
+        width: 80%;
+        padding: 8px 10px;
+        font-size: .5rem; 
+     }
+    
+    
+    
+     .input1{
+        margin-top: 20px;
+        width: 80%;
+        padding: 8px 10px;
+        font-size: .5rem; 
+     }
+    
+    
+     #msg{
+        
+        margin-top: 20px;
+        width: 80%;
+        padding: 8px 10px;
+        font-size: .5rem; 
+    
+     }
+    
+    
+    
+     /*login Page*/
+    
+     .form3{ 
+        display: flex;
+        background-color: lightgray ;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+        margin: 5px 10px;
+        margin-top: -300%;
+        font-size: .1rem;
+        height: auto;
+    
+     }  
+    
+    
+    
+    
+    
+     /*Sign Up page*/
+    
+    .form1{ 
+        display: flex;
+        background-color: lightgray ;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+        margin: 5px 10px;
+        margin-top: -3%;
+        font-size: .1rem;
+    
+     }  
+    
+    
+    .input3{
+        margin-top: 20px;
+        width: 80%;
+        padding: 8px 10px;
+        font-size: .5rem; 
+    }
+    
+    
+    .signup{
+    
+         padding: 15px;   
+         margin: 10px 10px;   
+         border: none;   
+         cursor: pointer; 
+         font-size: .5rem;  
+    }
+    
+    #contact{
+        margin-top: 10%;
+    }
+    
+    
+    #send{
+        padding: 10px;
+        width: 40%;
+        margin: 40px;
+        border: none;
+       
+        font-size: .6rem;
+    
+    }
+    
+    }
