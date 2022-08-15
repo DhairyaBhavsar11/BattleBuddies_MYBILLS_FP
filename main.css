@@ -240,6 +240,7 @@ button:hover {
 }
 
 
+
 @media only screen and (max-width: 400px){
 
 
@@ -371,8 +372,9 @@ button:hover {
         flex-direction: column;
         box-sizing: border-box;
         align-items: center;
-        margin: 5px 10px;
-        margin-top: -3%;
+        margin: 10px 10px;
+        margin-top: 5%;
+        width: 80%;
         font-size: .1rem;
     
      }  
