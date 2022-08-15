@@ -17,12 +17,6 @@
     margin-left: 5%;  
 }
 
-.addbtn{
-    float: right;
-    width: 30%;
-    margin-top: -67vh;
-    margin-right: 30vh;
-}
 
 .bill{
     width: 40%;
@@ -240,7 +234,6 @@ button:hover {
 }
 
 
-
 @media only screen and (max-width: 400px){
 
 
@@ -251,7 +244,6 @@ button:hover {
         height:30vmax;
         margin-left: auto;  
     }
-    
     
     
     form { 
@@ -285,8 +277,6 @@ button:hover {
         margin-top: 10px;
     }
     
-    
-    
     /*For Navigation Bar*/
     
     .nav{
@@ -296,11 +286,6 @@ button:hover {
         font-size: .5rem;
         
     }
-    
-    
-    
-    
-    
     
     /*contact Me page*/
     .form{ 
@@ -411,5 +396,7 @@ button:hover {
         font-size: .6rem;
     
     }
+
+    
     
     }
