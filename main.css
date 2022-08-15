@@ -17,6 +17,14 @@
     margin-left: 5%;  
 }
 
+.addbtn{
+    width: 30%;
+    margin-top: -34%;
+    margin-left: 50%;
+    float: right;
+    
+}
+
 .bill{
     width: 40%;
     margin-left: 30%;
@@ -155,7 +163,6 @@ button:hover {
     width: 70%;
     padding: 12px 20px; 
 }
-
 
 .signup{
     background-color: #07f;   
