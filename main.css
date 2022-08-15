@@ -157,6 +157,12 @@ button:hover {
     padding: 12px 20px; 
 }
 
+.input4{
+    margin-top: 10px;
+    width: 60%;
+    padding: 10px 10px; 
+    margin-left: 5%;
+}
 .signup{
     background-color: #07f;   
     width: 100%;  
