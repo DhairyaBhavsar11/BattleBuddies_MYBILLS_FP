@@ -17,6 +17,11 @@
     margin-left: 5%;  
 }
 
+.bill{
+    width: 40%;
+    margin-left: 30%;
+}
+
 .nav{
     /* display: flex; */
     background-color: #07f;
