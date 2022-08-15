@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="main.css">
+    <script src="login.js"></script>
 </head>
 <body>
     
@@ -29,20 +30,21 @@
     <section id = "contact">
         <form action = "" class = "form1">
             
-            <input type="name" name="Name" class="input3" placeholder="Enter Your First name">
+            <input type="name" id="Fname" name="Name" class="input3" placeholder="Enter Your First name">
 
            
-            <input type="name" name="Name" class="input3" placeholder="Enter Your Last Name">
+            <input type="name" id="Lname" name="Name" class="input3" placeholder="Enter Your Last Name">
 
             
-            <input type="email" name="email" class = "input3" placeholder="Enter your Email">
+            <input type="email" id="email" name="email" class = "input3" placeholder="Enter your Email">
            
             
-            <input type="name" name="password" class = "input3" placeholder="Please Enter your Password.">
+            <input type="name" id="Spassword" name="password" class = "input3" placeholder="Please Enter your Password.">
             
           
             <input type="name" name="reenterpassword" class = "input3" placeholder="Please Re-Enter your Password.">
-            <input type = "submit" value="Sign Up" class= "signup" >
+            <!-- <input type = "submit" value="Sign Up" class= "signup" > -->
+            <button type="submit" class="signup" id="Ssubmit" onclick="store()">Sign Up</button>
         </form>
 
     </section>
