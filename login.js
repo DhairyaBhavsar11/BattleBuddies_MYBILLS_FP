@@ -16,7 +16,7 @@ function validate(){
     var password = document.getElementById("password").value;
     if ( username == "dhairya@gmail.com" && password == "Dhairya"){
     alert ("Login successfully");
-    window.location.href = "aboutus.html"; 
+    window.open("home.html") 
     return;
     }
     else{
